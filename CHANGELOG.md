@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+## Added
+- bin file.
+- Main Menu Screen.
+- [Blessed](https://github.com/chjj/blessed) for terminal manipulation.
 
 ## 0.0.1 - 2015-10-15
 ### Added
