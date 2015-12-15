@@ -12,6 +12,13 @@
   },
 
   "rules": {
+    "strict": [2, "global"],
 
+    "valid-jsdoc": 1,
+
+    "block-scoped-var": 2,
+    "consistent-return": 2,
+    "eqeqeq": 2,
+    "quotes": [2, "single"]
   }
 }

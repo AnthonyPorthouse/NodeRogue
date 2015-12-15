@@ -9,7 +9,7 @@ let screen = blessed.screen({
 screen.key(['escape', 'q', 'C-c'], function () {
   return process.exit(0);
 });
-screen.enableMouse();
+screen.enableInput();
 
 screen.title = 'NodeRogue';
 
@@ -32,15 +32,35 @@ let start = blessed.box({
   left: 'center',
   width: 'shrink',
   height: 3,
+  padding: {
+    left: 1,
+    right: 1
+  },
   content: 'New Game',
+  clickable: true,
   tags: true,
   border: {
     type: 'line'
   },
-  align: 'center'
+  align: 'center',
+  style: {
+    fg: 'white',
+    bg: 'black',
+    border: {
+      fg: 'white',
+      bg: 'black'
+    },
+    hover: {
+      fg: 'black',
+      bg: 'white',
+      border: {
+        fg: 'black',
+        bg: 'white'
+      }
+    }
+  }
 });
 
-start.on('hover')
 screen.append(start);
 
 screen.render();
