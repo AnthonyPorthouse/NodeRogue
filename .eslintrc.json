@@ -1,0 +1,17 @@
+{
+  "root": true,
+
+  "extends": "eslint:recommended",
+
+  "ecmaFeatures": {
+    "blockBindings": true
+  },
+
+  "env": {
+    "node": true
+  },
+
+  "rules": {
+
+  }
+}

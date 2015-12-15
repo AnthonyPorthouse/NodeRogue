@@ -6,7 +6,7 @@ let screen = blessed.screen({
   smartCSR: true
 });
 
-screen.key(['escape', 'q', 'C-c'], function (ch, key) {
+screen.key(['escape', 'q', 'C-c'], function () {
   return process.exit(0);
 });
 screen.enableMouse();
@@ -35,7 +35,7 @@ let start = blessed.box({
   content: 'New Game',
   tags: true,
   border: {
-    type: 'line',
+    type: 'line'
   },
   align: 'center'
 });
