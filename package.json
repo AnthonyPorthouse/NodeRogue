@@ -1,0 +1,18 @@
+{
+  "name": "noderogue",
+  "version": "0.0.0",
+  "description": "A Roguelike built in NodeJS",
+  "main": "bin/noderogue",
+  "bin": {
+    "noderogue": "./bin/noderogue"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnthonyPorthouse/NodeRogue.git"
+  },
+  "author": "Anthony Porthouse <anthony@porthou.se>",
+  "license": "MIT"
+}
